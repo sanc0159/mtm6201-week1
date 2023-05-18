@@ -1,0 +1,99 @@
+/********************
+COLORS
+rgb(245, 230, 216) pale
+rgb(61, 61, 59) black
+********************/
+
+html {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(245, 230, 216);
+    color: rgb(61, 61, 59);
+}
+
+/************ GENERAL *************/
+
+h1, h2, h3 {
+    font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+body {
+    font-family: 'Niramit', sans-serif;
+    font-size: 14pt;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.list dt {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 1.15rem;
+    margin-top: 5px;
+}
+
+/************ HEADER *************/
+
+.myname {
+    font-size: 1rem;
+    background-color: rgb(197, 213, 76);
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/************ BIO *************/
+
+img {
+    max-width: 150px;
+    height: auto;
+    padding: 10px;
+    float: left;
+}
+
+.bio {
+    background-color: white;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.biotext h2 {
+    text-transform: uppercase;
+    padding-top: 10px;
+    margin: 0;
+}
+
+.biotext p {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    margin: 0;
+}
+
+/************ LIST *************/
+
+.list {
+    background-color: rgb(245, 230, 216);
+    margin: 10px;
+    padding: 10px;
+}
+
+ul {
+    margin: 0;
+}
+
+.hobbies {
+    padding: 5px;
+}
+
+/************ FOOTER *************/
+
+footer {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 1rem;
+    background-color: rgb(226, 109, 105);
+    padding: 10px;
+}
