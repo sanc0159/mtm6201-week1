@@ -1,10 +1,4 @@
-/********************
-COLORS
-rgb(245, 230, 216) pale
-rgb(61, 61, 59) black
-********************/
-
-html {
+.container {
     margin-left: 20px;
     margin-right: 20px;
     background-color: rgb(245, 230, 216);
@@ -48,8 +42,10 @@ body {
 
 img {
     max-width: 150px;
+    width: 100%;
     height: auto;
     padding: 10px;
+    padding-bottom: 0;
     float: left;
 }
 
